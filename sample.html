@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <TITLE>FORM</TITLE>
+    <style>
+        .p {
+            font-family: algerian;
+            background-position: 0%;
+            position: relative;
+            color: azure;
+            text-align: none;
+        }
+        .w {
+            background-color: rgb(71, 69, 67);
+            background-image: url(night.jpg);
+        }
+        .u {
+            border: solid;
+            border-color: beige;
+            align-content: baseline;
+            width: 500px;
+            height: 300px;
+            }
+        .q {
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            border: 2px;
+            border-radius: 10px;
+
+        }
+        .q:hover {
+            background-color: azure;
+            cursor: pointer;
+            font-size: large;
+            color: cornflowerblue;
+        }
+        .q:active {
+            background-attachment: fixed;
+            background-color: brown ;
+            color: white;
+            
+        }
+        .e {
+            border: thick-solid;
+            border-color: white;
+        }
+    </style>
+    <BODY class="w">
+        <img src="night.jpg" alt="img" width="500px" height="500px">
+        <H1 class="p">FORM</H1>
+        <div class="e">
+            <form class="u">
+                <div class="p">
+                  username:
+                </div>
+                <input type="text" name="username">
+                <div class="p">
+                  password
+                </div>
+                <input type="password" name="password">
+                <div class="p">
+                 email
+                </div>
+                <input type="email" name="email"><br><br>
+                <input type="submit" class="q"> <a href="https://www.kisskh.co" target="_blank">submit</a>
+                <br>
+                <div class="p">
+                   remember me for 2 weeks
+                </div>
+                <input type="checkbox"> 
+                <br>
+                <input type="date"><br>
+                <br>
+                <select name="gender">
+                  <option>"Male"</option>
+                  <option>"Female"</option>
+                  <option>"others"</option>
+                </select>
+            </form>
+        </div>
+        
+   </BODY>
+</html>
